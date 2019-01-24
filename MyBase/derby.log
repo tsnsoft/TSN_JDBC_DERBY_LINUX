@@ -1,0 +1,8 @@
+Server is ready to accept connections on port 1527.
+Connection number: 1.
+----------------------------------------------------------------
+2019-01-24 12:42:47.184 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.1.2.1 - (330608): instance c013800d-0168-7fe2-5854-ffffa12ec0dd
+on database directory /home/tsn/Development/my-projects/NetBeansProjects/TSN_JDBC_DERBY_LINUX/MyBase/disks 
+
+Database Class Loader started - derby.database.classpath=''
