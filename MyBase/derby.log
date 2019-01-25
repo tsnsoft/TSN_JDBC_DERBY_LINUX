@@ -1,4 +1,4 @@
-Fri Jan 25 11:06:18 ALMT 2019 : Could not listen on port 1527 on host 127.0.0.1:
+Fri Jan 25 11:12:31 ALMT 2019 : Could not listen on port 1527 on host 127.0.0.1:
  java.net.BindException: Адрес уже используется (Bind failed)
 Сгенерировано исключение при запуске сетевого сервера. DRDA_ListenPort.S:Could not listen on port 1527 on host 127.0.0.1:
  java.net.BindException: Адрес уже используется (Bind failed)
