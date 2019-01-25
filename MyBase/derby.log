@@ -1,8 +1,17 @@
-Server is ready to accept connections on port 1527.
-Connection number: 1.
-----------------------------------------------------------------
-2019-01-24 12:42:47.184 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.1.2.1 - (330608): instance c013800d-0168-7fe2-5854-ffffa12ec0dd
-on database directory /home/tsn/Development/my-projects/NetBeansProjects/TSN_JDBC_DERBY_LINUX/MyBase/disks 
-
-Database Class Loader started - derby.database.classpath=''
+Fri Jan 25 11:06:18 ALMT 2019 : Could not listen on port 1527 on host 127.0.0.1:
+ java.net.BindException: Адрес уже используется (Bind failed)
+Сгенерировано исключение при запуске сетевого сервера. DRDA_ListenPort.S:Could not listen on port 1527 on host 127.0.0.1:
+ java.net.BindException: Адрес уже используется (Bind failed)
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.derby.iapi.jdbc.DRDAServerStarter.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: DRDA_ListenPort.S:Could not listen on port 1527 on host 127.0.0.1:
+ java.net.BindException: Адрес уже используется (Bind failed)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.consolePropertyMessageWork(Unknown Source)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.consolePropertyMessage(Unknown Source)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.blockingStart(Unknown Source)
+	... 6 more
